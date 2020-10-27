@@ -29,7 +29,7 @@ Hakilo was developed and tested on Python 3.7 .
 
 ## Links
 
-Github: [https://github.com/Indrikoterio/hakilo](https://github.com/Indrikoterio/hakilo)
+Github: [https://github.com/Indrikoterio/hakilo-python](https://github.com/Indrikoterio/hakilo-python)
 
 PyPi: [https://pypi.org/project/hakilo/1.0.0/](https://pypi.org/project/hakilo/1.0.0/)
 
