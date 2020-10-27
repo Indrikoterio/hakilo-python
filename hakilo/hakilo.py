@@ -7,7 +7,7 @@
 # Last change: 2020-10-25
 #
 
-import os, sys, re, glob
+import os, sys
 
 HOW_TO_USE = """\nHakilo\n
     Divides a text into sentences, one sentence per line.
