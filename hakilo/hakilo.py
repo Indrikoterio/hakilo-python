@@ -8,6 +8,7 @@
 #
 
 import os, sys
+from .hakilo_sentence import split_sentence
 
 HOW_TO_USE = """\nHakilo\n
     Divides a text into sentences, one sentence per line.
