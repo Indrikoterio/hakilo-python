@@ -31,7 +31,7 @@ Hakilo was developed and tested on Python 3.7 .
 
 Github: [https://github.com/Indrikoterio/hakilo-python](https://github.com/Indrikoterio/hakilo-python)
 
-PyPi: [https://pypi.org/project/hakilo/1.1.0/](https://pypi.org/project/hakilo/1.1.0/)
+PyPi: [https://pypi.org/project/hakilo/1.1.1/](https://pypi.org/project/hakilo/1.1.1/)
 
 ## Installation
 
@@ -87,6 +87,8 @@ are English and Esperanto. Comments, suggestions and criticism are welcomed.
 First release, October 2020.
 
 Version 1.1.0 - Added split_sentence() - October 2020.
+
+Version 1.1.1 - Fix bug in split_sentence() - October 2020.
 
 ## License
 
