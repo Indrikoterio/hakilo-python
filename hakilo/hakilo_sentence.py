@@ -21,11 +21,12 @@ def is_punctuation(ch):
     EXCEPT if the character is a period (.).
     A period could be part of an abbreviation or number (eg. 37.49).
     Return True or False.
+    Ref: http://jkorpela.fi/dashes.html
     """
     if (ch == '.'): return False
     if (ch >= '!' and ch <= '/'): return True
     if (ch >= ':' and ch <= '@'): return True
-    if (ch == '\u2013'): return True  # en-dash
+    if (ch >= '\u2010' and ch <= '\u2014'): return True  # various dashes
     if (is_quote_mark(ch)): return True
     return False
 
@@ -124,6 +125,8 @@ def split_sentence(sentence):
 
             number_of_words += 1
             start_index = last_index
+        else:
+            start_index += 1
 
     return words
 
