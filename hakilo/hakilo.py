@@ -4,7 +4,7 @@
 # Program to divide a text into sentences.
 #
 # Author: Klivo Lendon
-# Last change: 2020-10-25
+# Last change: 2020-10-29
 #
 
 import os, sys
