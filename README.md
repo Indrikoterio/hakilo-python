@@ -1,4 +1,4 @@
-# Hakilo - Splits a text into sentences. Written for Python 3.
+# Hakilo - For splitting a text into sentences, and sentences into words.
 
 Hakilo (meaning 'axe' in Esperanto) chops a text into sentences for analysis.
 
@@ -31,7 +31,7 @@ Hakilo was developed and tested on Python 3.7 .
 
 Github: [https://github.com/Indrikoterio/hakilo-python](https://github.com/Indrikoterio/hakilo-python)
 
-PyPi: [https://pypi.org/project/hakilo/1.0.0/](https://pypi.org/project/hakilo/1.0.0/)
+PyPi: [https://pypi.org/project/hakilo/1.1.0/](https://pypi.org/project/hakilo/1.1.0/)
 
 ## Installation
 
@@ -65,6 +65,14 @@ This function splits the text and returns a list of sentences.
 sentences = hakilo.split_text(the_text)
 ```
 
+### split_sentence
+
+This function splits the sentence into words and punctuation.
+
+```
+words = hakilo.split_sentence("You can do better.")
+```
+
 ## Developer
 
 Hakilo was developed by Cleve (Klivo) Lendon.
@@ -77,6 +85,8 @@ are English and Esperanto. Comments, suggestions and criticism are welcomed.
 ## History
 
 First release, October 2020.
+
+Version 1.1.0 - Added split_sentence() - October 2020.
 
 ## License
 
