@@ -8,7 +8,7 @@ with open("README.md", "r") as fin:
 
 setuptools.setup(
     name = "hakilo",
-    version = "1.0.0",
+    version = "1.1.0",
     author = "Cleve (Klivo) Lendon",
     author_email = "indriko@yahoo.com",
     description = "A tool for splitting a text into sentences.",
